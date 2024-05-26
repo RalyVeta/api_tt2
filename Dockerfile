@@ -17,4 +17,4 @@ RUN pip install -r requirements.txt
 RUN pip install awsgi
 
 # Comando por defecto para ejecutar tu aplicación cuando el contenedor se inicie
-CMD ["flask", "run", "app.py", "--server=0.0.0.0", "--port=8080"]
+CMD ["python", "-m", "flask", "run", "--host=0.0.0.0", "--port=8080", "--app=app.py"]
