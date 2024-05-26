@@ -1,0 +1,12 @@
+{
+    "dev": {
+        "app_function": "wsgi.handler",
+        "aws_region": "us-east-2",
+        "profile_name": "default",
+        "project_name": "flask-ml-api",
+        "runtime": "python3.8",
+        "s3_bucket": "zappa-flask-ml-api",
+        "slim_handler": "true"
+        
+    }
+}
